@@ -1,0 +1,33 @@
+.home {
+    background-image: url('../../images/bg-pattern-intro-desktop.svg');
+    background-color: var(--light-red-hover-background);
+    border-end-start-radius: 6rem;
+}
+
+.home h1, .home p, .header .navigation ul li, .home a {
+    color: var(--white-text);
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navigation ul {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.list-navigation li::after {
+    content: url('../../images/icon-arrow-light.svg');
+}
+
+.pattern {
+    margin: 0 6rem;
+}
